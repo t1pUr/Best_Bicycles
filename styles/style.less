@@ -1,0 +1,43 @@
+@import "vars";
+
+body{
+	margin: 0;
+}
+
+.title{
+ 	position: relative;
+    text-align: center;
+}
+
+.img{
+	padding: 0 @padingIndent;
+}
+
+.textTitle{
+	font-size: @titleSize;
+	position: absolute;
+	top: 8px;
+    left: 170px;
+    color: @titleColour;
+    font-family: "Moniqa";
+    font-weight: bold;
+    -webkit-text-stroke: 1px #bf8404;
+}
+
+.text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px @marginLeftAndRightText;
+	background: @backgroundTextColour;
+	font-size: @textSize;
+	
+}
+
+h2{
+	font-size: @hTwoFontSize;
+	margin: 0px @marginLeftAndRightText;
+	color: @hTwoFontColour;
+	-webkit-text-stroke: 1px @textOutline;
+	background: -webkit-linear-gradient(90deg, rgb(202, 207, 206) 10%, rgb(196, 211, 194) 41%);
+	background: -moz-linear-gradient(90deg, rgb(202, 207, 206) 10%, rgb(196, 211, 194) 41%);
+	background: linear-gradient(90deg, rgb(202, 207, 206) 10%, rgb(196, 211, 194) 41%);
+}
